@@ -67,6 +67,7 @@ A simple, grammatically correct German sentence using that verb + preposition + 
 
 A cloze-format sentence that hides the preposition and the article ending, like this:
 Ich denke {{c1::an}} mein{{c1::en}} Urlaub.
+Alles hängt {{c1::von}} d{{c1::em}} Wetter ab.
 
 A grammar hint line in HTML format showing:
    verb <span style="color:blue;">preposition</span> <span style="color:red;">case</span>
