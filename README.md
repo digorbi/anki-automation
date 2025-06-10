@@ -57,6 +57,25 @@ Sometimes, instead of English translations, I may use another language. In such 
 
 After you finished with content generation you can run the script to prepated files in suitable for anki format.
 
+### Promt for the next iteration of the automation script
+
+```
+I'm studying German verbs with prepositions and building Anki cards to practice them.
+For each input I give (e.g., denken an Akk.), please generate the following:
+
+A simple, grammatically correct German sentence using that verb + preposition + object (use natural context and gendered nouns).
+
+A cloze-format sentence that hides the preposition and the article ending, like this:
+Ich denke {{c1::an}} mein{{c1::en}} Urlaub.
+
+A grammar hint line in HTML format showing:
+   verb <span style="color:blue;">preposition</span> <span style="color:red;">case</span>
+Example:
+denken <span style="color:blue;">an</span> <span style="color:red;">Akk.</span>
+
+Use the same structure every time. Keep sentences simple and useful for A2–B1 level.
+```
+
 
 ## Project setup
 
