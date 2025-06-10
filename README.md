@@ -76,6 +76,8 @@ denken <span style="color:blue;">an</span> <span style="color:red;">Akk.</span>
 Use the same structure every time. Keep sentences simple and useful for A2–B1 level.
 
 Use different colors to highlite cases in a grammar hint line: Accusative - red, Dative - green, Genitive - yellow.
+
+When there are multiple possabilities of using a verb (e.g., anfangen Akk./mit Dat.), generate a separate card for each variant.
 ```
 
 
