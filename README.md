@@ -13,7 +13,7 @@ Enhance your language learning experience with this automation script tailored f
 ## Input File Generation
 ### Generating JSON Content
 
-Consider using Big Language Models such as ChatGPT to generate JSON content. Here is the promt to help you started.
+Consider using Large Language Models such as ChatGPT to generate JSON content. Here is the promt to help you started.
 
 ```
 Generate JSON-formatted data that translates words from German to English, including example sentences in both languages. The structure should include:
@@ -53,6 +53,8 @@ For example:
 In the following messages, I will provide you with words and, occasionally, their translations to emphasize the meaning I want reflected in the examples.
 
 Sometimes, instead of English translations, I may use another language. In such cases, you must include the provided language in the en_word and en_sentence fields of the JSON structure without changing the JSON keys.
+
+If I provide many words, batch them in groups of 20, maintaining the original order. Indicate your position clearly—for example, '1st 20 of 70', '2nd 20 of 70', and 'last 10 of 70'.
 ```
 
 After you finished with content generation you can run the script to prepated files in suitable for anki format.
